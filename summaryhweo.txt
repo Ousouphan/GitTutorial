@@ -1,0 +1,4 @@
+﻿The “Human Interface Guidelines” document has a lot of details about certain actions and options that the iPhone has and how it relates to the user. To summarize, the document has a similar message when talking about all topics; which is, apps and UI should be simple and convenient for users. Some aspects that can alter how simple and easy UI is for the user includes things such as color, text, vibrations, sounds, and use of advertisements. 
+
+
+The “App Store Guidelines” mainly discuss what is acceptable before an app becomes available on the market. Things to consider include how the app interacts with children, discrimination if any, harmful effects, and performances of the app. The article also discusses legal topics that deal with money, in-app purchases, gambling, and licenses. All of these topics and a couple more are looked at while being reviewed.
