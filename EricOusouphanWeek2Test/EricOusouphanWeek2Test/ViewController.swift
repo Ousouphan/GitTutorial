@@ -54,7 +54,7 @@ class ViewController: UIViewController, UITableViewDataSource {
     cell.detailTextLabel?.text = "Season: \(episodeinfo[indexPath.row].season) Episode"
     return cell
     
-  }
+  
   
 }
 
@@ -78,3 +78,4 @@ struct Episodes: Codable {
   let airtime: String
   let summary: String
   }
+}

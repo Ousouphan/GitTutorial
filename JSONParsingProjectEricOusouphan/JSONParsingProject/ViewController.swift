@@ -41,10 +41,6 @@ struct Pokemon: Codable {
   let stats: [Stats]
   let types: [Types]
   let weight: Int
-
-  
-  
-  
   enum CodingKeys: String, CodingKey {
     case name
     case abilities
