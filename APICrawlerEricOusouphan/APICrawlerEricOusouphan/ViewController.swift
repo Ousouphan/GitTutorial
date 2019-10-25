@@ -51,7 +51,7 @@ class ViewController: UIViewController {
   let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "cell")
   let pokemoninfo = pokemonArray[indexPath.row].descriptions
   cell.textLabel?.text = pokemoninfo[indexPath.row]
-  cell.detailedTextLabel?.text =
+  cell.detailedTextLabel?.text = 
   }
 
   struct Pokemon: Codable {

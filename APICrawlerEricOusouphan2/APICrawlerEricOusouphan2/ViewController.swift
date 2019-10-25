@@ -47,6 +47,7 @@ extension ViewController: UITableViewDataSource {
   
     if let currentValue = jsonDictionary[orderedKeys[indexPath.row]] as? String {
     cell.detailTextLabel?.text = currentValue
+    
     }
     
     if let value = self.jsonDictionary[orderedKeys[indexPath.row]] {
