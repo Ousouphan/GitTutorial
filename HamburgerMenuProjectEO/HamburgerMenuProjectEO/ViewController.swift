@@ -15,6 +15,18 @@ class ViewController: UIViewController {
     // Do any additional setup after loading the view.
   }
 
-
+  @IBAction func didTapMenu(_ sender: Any) {
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+    let hamburgerMenuViewController = storyboard.instantiateViewController(identifier: "HamburgerMenuViewController")
+    hamburgerMenuViewController.transitioningDelegate = self
+    present(hamburgerMenuViewController, animated: true, completion: nil)
+    
+  }
+  
 }
 
+extension ViewController: UIViewControllerTransitioningDelegate {
+  func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    return HamburgerMenuTransition()
+  }
+}

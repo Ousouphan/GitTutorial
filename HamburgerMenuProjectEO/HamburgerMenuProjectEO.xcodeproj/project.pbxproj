@@ -13,6 +13,8 @@
 		04B3B95923687B0E00393B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B3B95723687B0E00393B3D /* Main.storyboard */; };
 		04B3B95B23687B1F00393B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B3B95A23687B1F00393B3D /* Assets.xcassets */; };
 		04B3B95E23687B1F00393B3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B3B95C23687B1F00393B3D /* LaunchScreen.storyboard */; };
+		04B3B96623687CD800393B3D /* HamburgerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3B96523687CD800393B3D /* HamburgerMenuViewController.swift */; };
+		04B3B9682368858C00393B3D /* HamburgerMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3B9672368858C00393B3D /* HamburgerMenuTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		04B3B95A23687B1F00393B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B3B95D23687B1F00393B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B3B95F23687B1F00393B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B3B96523687CD800393B3D /* HamburgerMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerMenuViewController.swift; sourceTree = "<group>"; };
+		04B3B9672368858C00393B3D /* HamburgerMenuTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerMenuTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				04B3B95A23687B1F00393B3D /* Assets.xcassets */,
 				04B3B95C23687B1F00393B3D /* LaunchScreen.storyboard */,
 				04B3B95F23687B1F00393B3D /* Info.plist */,
+				04B3B96523687CD800393B3D /* HamburgerMenuViewController.swift */,
+				04B3B9672368858C00393B3D /* HamburgerMenuTransition.swift */,
 			);
 			path = HamburgerMenuProjectEO;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				04B3B95623687B0E00393B3D /* ViewController.swift in Sources */,
 				04B3B95223687B0E00393B3D /* AppDelegate.swift in Sources */,
 				04B3B95423687B0E00393B3D /* SceneDelegate.swift in Sources */,
+				04B3B96623687CD800393B3D /* HamburgerMenuViewController.swift in Sources */,
+				04B3B9682368858C00393B3D /* HamburgerMenuTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
